@@ -1,0 +1,10 @@
+
+apply plugin: 'war'
+
+description = 'ZXing zxing.org web app'
+dependencies {
+  compile project(':core')
+  compile project(':javase')
+    compile group: 'com.google.guava', name: 'guava', version:'18.0'
+    providedCompile group: 'javax', name: 'javaee-web-api', version:'7.0'
+}

@@ -1,0 +1,14 @@
+rootProject.name = 'zxing-parent'
+include ':core'
+include ':javase'
+include ':android-core'
+include ':android-integration'
+include ':zxing.appspot.com'
+include ':zxingorg'
+
+project(':core').projectDir = "$rootDir/core" as File
+project(':javase').projectDir = "$rootDir/javase" as File
+project(':android-core').projectDir = "$rootDir/android-core" as File
+project(':android-integration').projectDir = "$rootDir/android-integration" as File
+project(':zxing.appspot.com').projectDir = "$rootDir/zxing.appspot.com" as File
+project(':zxingorg').projectDir = "$rootDir/zxingorg" as File

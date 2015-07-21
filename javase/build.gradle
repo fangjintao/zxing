@@ -1,0 +1,6 @@
+
+description = 'ZXing Java SE extensions'
+dependencies {
+  compile project(':core')
+    compile group: 'com.beust', name: 'jcommander', version:'1.48'
+}
